@@ -1,1 +1,8 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Wq523uwp)
+Kelompok 6
+1. Rizqi Mahendra Pratama (Project Manager)
+2. Muhammad Fatarsyah (Analis & Testing)
+3. Fajar Aprio Rizki(Full Stack Dev)
+4. Mutiarani Wahyudin(UI/UX & Testing)
+
+WARUNG BOBOKO
+Menjadi platform digital terdepan yang menghubungkan mahasiswa Gunadarma dengan kuliner lezat dan berkualitas di Warung Boboko, serta memberikan pengalaman pengguna yang seamless dan memuaskan.
