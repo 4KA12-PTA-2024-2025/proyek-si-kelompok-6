@@ -4,5 +4,5 @@ Kelompok 6
 3. Fajar Aprio Rizki(Full Stack Dev)
 4. Mutiarani Wahyudin(UI/UX & Testing)
 
-WARUNG BOBOKO
+WARUNG BOBOKO :
 Menjadi platform digital terdepan yang menghubungkan mahasiswa Gunadarma dengan kuliner lezat dan berkualitas di Warung Boboko, serta memberikan pengalaman pengguna yang seamless dan memuaskan.
