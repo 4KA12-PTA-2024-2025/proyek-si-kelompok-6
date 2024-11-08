@@ -1,3 +1,5 @@
+Link Presentasi Project Charter : https://drive.google.com/drive/folders/1WcACgx0_HXqrVEX2scIGPADeRNi5pCfT?usp=sharing
+
 Kelompok 6
 1. Rizqi Mahendra Pratama (Project Manager)
 2. Muhammad Fatarsyah (Analis & Testing)
