@@ -1,4 +1,5 @@
 Link Presentasi Project Charter : https://drive.google.com/drive/folders/1WcACgx0_HXqrVEX2scIGPADeRNi5pCfT?usp=sharing
+Link Presentasi Rencana Implementasi : https://drive.google.com/drive/folders/1UCsqnoQQSQfF7gZT72LDt6AdL0-Q8MR1?usp=sharing
 
 Kelompok 6
 1. Rizqi Mahendra Pratama (Project Manager)
