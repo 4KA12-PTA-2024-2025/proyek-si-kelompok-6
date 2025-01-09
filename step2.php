@@ -128,7 +128,7 @@ $newValuesArray = json_decode($newValuesJSON, true);
     <!--No table-->
     <div class="table1-container">
       <div class="table-box">
-        <h2>No. Meja
+        <h2>Waktu Pickup
           <hr>
         </h2>
         <input type="text" id="customerNameInput" id="tableNumberDropdown" name="tableNumber" value="<?php echo htmlspecialchars($tableNumber); ?>" readonly>
@@ -202,8 +202,12 @@ $newValuesArray = json_decode($newValuesJSON, true);
 
     // Menampilkan SweetAlert
     Swal.fire({
+      imageUrl: "https://www.paper.id/blog/wp-content/uploads/2022/11/csan-qr-a.jpg",
+      imageHeight: 550,
       title: "Pesanan Diterima!!",
-      text: "Mohon menunggu! Silakan Anda bayar di Kasir",
+      html: `Harap Melakukan Pembayaran, detail pesanan akan dikirim melalui whatsapp harap ditunggu!.
+    
+  `,
       icon: "success",
     });
   </script>

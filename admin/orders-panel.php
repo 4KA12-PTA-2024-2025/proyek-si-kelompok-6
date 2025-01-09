@@ -57,7 +57,7 @@ session_start();
                         echo "<thead>";
                         echo "<tr>";
                         echo "<th>Bill ID</th>";
-                        echo "<th>Table Number</th>";
+                        echo "<th>Pickup Time</th>";
                         echo "<th>Customer Name</th>";
                         echo "<th>Phone Number</th>";
                         echo "<th>Timestamp</th>";
@@ -72,7 +72,7 @@ session_start();
                         echo "<tbody>";
                         while ($row = mysqli_fetch_array($result)) {
                             $phone = $row['customer_number']; // Nomor HP pelanggan
-                            $message = urlencode("Halo " . $row['customer_name'] . ", terimakasih sudah memesan di Warung Boboko. Pesanan Anda adalah " . $row['pesanan'] . " dengan detail '" . $row['notes'] . "'. Total harga pesanan Anda adalah Rp" . $row['Total_Price'] . ". Pembayaran dapat dilakukan via transfer ke Bank BCA xxxxxxxx a/n Boboko. Terimakasih."); // Pesan dengan data dinamis
+                            $message = urlencode("Halo " . $row['customer_name'] . ", terimakasih sudah memesan di Warung Boboko. Pesanan Anda adalah " . $row['pesanan'] . " dengan detail '" . $row['notes'] . "'. Total harga pesanan Anda adalah Rp" . $row['Total_Price'] .     ". Harap mengirim bukti pembayaran melalui chat ini. Terimakasih."); // Pesan dengan data dinamis
                 
                             echo "<tr>";
                             echo "<td>" . $row['id'] . "</td>";
@@ -100,7 +100,7 @@ session_start();
                             
                             // Kolom baru untuk WhatsApp
                             echo "<td>";
-                            echo '<a href="https://wa.me/' . $phone . '?text=' . $message . '" target="_blank" class="btn btn-secondary">WA</a>';
+                            echo '<a href="https://wa.me/62' . $phone . '?text=' . $message . '" target="_blank" class="btn btn-secondary">WA</a>';
                             echo "</td>";
                             
                             echo "</tr>";

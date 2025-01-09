@@ -148,16 +148,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['products'])) {
     <div class="container-row">
       <div class="table-container">
         <div class="table-box">
-          <h2>Nomor Meja
+          <h2>Waktu Pickup
             <hr>
           </h2>
-          <h4>Pilih nomor meja</h4>
+          <h4>Pilih Waktu Pickup</h4>
           <select id="tableNumberDropdown" required>
-            <option value="" disabled selected>Pilih nomor meja</option>
+            <option value="" disabled selected>Pilih Waktu Pickup</option>
 
             <?php
-            for ($i = 1; $i <= 7; $i++) {
-              echo "<option value='{$i}'>{$i}</option>";
+            $startTime = strtotime("08:00");
+            $endTime = strtotime("17:00");
+            $interval = 30; // Interval dalam menit
+      
+            while ($startTime <= $endTime) {
+              $time = date("H:i", $startTime);
+              echo "<option value='{$time}'>{$time}</option>";
+              $startTime = strtotime("+{$interval} minutes", $startTime);
             }
             ?>
           </select>
